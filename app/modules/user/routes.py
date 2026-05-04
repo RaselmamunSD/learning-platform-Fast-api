@@ -4,7 +4,6 @@ from app.db.session import SessionLocal
 from app.modules.user.schemas.user import User, UserCreate
 from app.modules.user.crud import user as user_crud
 from app.modules.auth.crud.auth import get_current_active_user
-from app.modules.user.utils import get_current_active_user
 
 router = APIRouter()
 
